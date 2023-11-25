@@ -2,11 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-
-    <uses-permission android:name="android.permission.CAMERA"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,19 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="31">
-
-        <service
-            android:name=".QRScannerTileService"
-            android:exported="true"
-            android:label="@string/qr_scanner_tile_label"
-        android:icon="@drawable/tile"
-        android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-        <intent-filter>
-            <action android:name="android.service.quicksettings.action.QS_TILE" />
-        </intent-filter>
-    </service>
-
-
         <activity
             android:name=".MainActivity"
             android:exported="true"

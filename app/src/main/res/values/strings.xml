@@ -6,6 +6,5 @@
     <string name="tag_text">tag: %1$s</string>
     <string name="ha_url_text">haURL: %1$s</string>
     <string name="logo">Logo</string>
-    <string name="qr_scanner_tile_label">HA QR Scan</string>
 
 </resources>
