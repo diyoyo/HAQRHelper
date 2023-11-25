@@ -1,7 +1,7 @@
 <table border="0"  style="border:none!important;">
     <tr border="0"  style="border:none!important;">
         <td  border="0" style="border:none!important;">
-            <img src="logo512.png" alt="Logo" width="256" border="0" />
+            <img src="logo256.png" alt="Logo" width="256" border="0" />
         </td>
         <td  border="0" style="border:none!important;">
             <h1>HA QR Helper</h1>
