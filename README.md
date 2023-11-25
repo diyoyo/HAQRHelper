@@ -28,6 +28,8 @@
 
    **Don't leave the `TAG ID` field blank in the Home Assistant Companion app if you want this to work reliably!**
 
+5. As of `2023-11-25`, you can now click on the logo (or the QuickSettings tile) to launch an integrated ZXing QR Code reader that will trigger the HA event.
+
 # Credits
 
 I used **ChatGPT4** to generate most of the code, as well as drafts of the logo.
