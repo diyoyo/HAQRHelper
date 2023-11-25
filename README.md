@@ -24,6 +24,9 @@ The templating makes this the only region in the app folder where you need to mo
 
 3. Once installed on your phone, you may need to go to the app settings and switch on the baseURL in the default definitions.
 
+4. Important note: the only rule here is that the TAG_ID of a given QRCode should match the one in Home Assistant. 
+** Don't leave the `TAG ID` field blank in the Home Assistant Companion app if you want this to work reliably! **
+
 # Credits
 
 I used **ChatGPT4** to generate most of the code, as well as drafts of the logo.
