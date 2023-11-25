@@ -1,16 +1,14 @@
-
-<table>
-<tr>
-<td>
-    <img src="logo512.png" alt="Logo" width="128" height="128"/>
-</td>
-<td># HAQRHelper
-
-This is a very small Android application that performs a simple string substitution when scanning QR Code.
-
-Instead of generating new QR Codes dedicated to your new **Home Assistant** instance, you can reuse previously generated codes with a different prefix.
-</td>
-</tr>
+<table border="0"  style="border:none!important;">
+    <tr border="0"  style="border:none!important;">
+        <td  border="0" style="border:none!important;">
+            <img src="logo512.png" alt="Logo" width="256" border="0" />
+        </td>
+        <td  border="0" style="border:none!important;">
+            <h1>HA QR Helper</h1>
+            <p> This is a very small Android application that performs a simple string substitution when scanning QR Code.</p>
+            <p> Instead of generating new QR Codes dedicated to your new **Home Assistant** instance, you can reuse previously generated codes with a different prefix.</p>
+        </td>
+    </tr>
 </table>
 
 # How to use it
