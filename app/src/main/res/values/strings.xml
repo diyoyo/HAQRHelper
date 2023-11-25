@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">HAQRHelper</string>
+    <string name="main_label">This app is just a helper function.\nIt was generated with the help of ChatGPT4.</string>
+    <string name="current_settings">Here are the current settings:</string>
+    <string name="base_url_text">baseURL: %1$s</string>
+    <string name="tag_text">tag: %1$s</string>
+    <string name="ha_url_text">haURL: %1$s</string>
+    <string name="logo">Logo</string>
+
 </resources>

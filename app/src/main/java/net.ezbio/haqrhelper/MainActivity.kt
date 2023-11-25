@@ -6,6 +6,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.Window
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 
@@ -22,6 +23,19 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         setContentView(R.layout.activity_main)
+
+        val baseUrlTextView = findViewById<TextView>(R.id.textview_base_url)
+        val text = getString(R.string.base_url_text, baseUrl)
+        baseUrlTextView.text = text
+
+        val tagTextView = findViewById<TextView>(R.id.textview_tag)
+        val tagText = getString(R.string.tag_text, tag)
+        tagTextView.text = tagText
+
+        val haUrlTextView = findViewById<TextView>(R.id.textview_ha_url)
+        val haText = getString(R.string.ha_url_text, haUrl)
+        haUrlTextView.text = haText
+
         // Vérifiez si l'activité a été lancée avec un Intent de deep link
         if (intent?.action == Intent.ACTION_VIEW) {
             handleDeepLink(intent.data)
