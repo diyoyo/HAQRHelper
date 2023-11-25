@@ -2,7 +2,7 @@
 
 This is a very small Android application that performs a simple string substitution when scanning QR Code.
 
-Instead of generating QR Code dedicated to your new **Home Assistant** instance, you can reuse previously generated codes with a different prefix.
+Instead of generating new QR Codes dedicated to your new **Home Assistant** instance, you can reuse previously generated codes with a different prefix.
 
 # How to use it
 
