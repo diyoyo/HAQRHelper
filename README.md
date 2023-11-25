@@ -17,3 +17,5 @@ The templating makes this the only region in the app folder where you need to mo
 # Credits
 
 I used **ChatGPT4** to generate most of the code, as well as drafts of the logo.
+
+This is my solution to avoid touching at the [Home-Assistant code](https://github.com/home-assistant/android) while answering the needs described [on the Home-Assistant forum](https://community.home-assistant.io/t/is-it-absolutly-necessary-to-use-outside-url-home-assistant-io-tag-for-using-nfc-tags-qr-codes/369800/19)
