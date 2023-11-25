@@ -13,3 +13,7 @@ Go to `app/build.gradle.kts` and edit the following strings:
 
 
 The templating makes this the only region in the app folder where you need to modify things.
+
+# Credits
+
+I used **ChatGPT4** to generate most of the code, as well as drafts of the logo.
