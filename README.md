@@ -22,6 +22,8 @@ The templating makes this the only region in the app folder where you need to mo
 
 2. Build and run in Android Studio
 
+3. Once installed on your phone, you may need to go to the app settings and switch on the baseURL in the default definitions.
+
 # Credits
 
 I used **ChatGPT4** to generate most of the code, as well as drafts of the logo.
